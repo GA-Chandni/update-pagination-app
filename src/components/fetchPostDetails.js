@@ -77,7 +77,6 @@ const FetchPostDetails = (props) => {
   const fetchdetails = useSelector((state) => {
     return state.posts;
   });
-  // console.log("fetch details post--", fetchdetails);
 
   return (
     <div>
@@ -178,9 +177,8 @@ const FetchPostDetails = (props) => {
         ]}
         defaultPageSize={10} //set the page number
         className="-striped -highlight"
-        noDataText={loading} //display the loading... on the screen
+        noDataText={loading} 
         sortable={true} // sortable
-        // filterable={true} // searching column
       />
     </div>
   );

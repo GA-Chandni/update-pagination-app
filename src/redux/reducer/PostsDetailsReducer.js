@@ -13,9 +13,9 @@ export const PostsDetailsReducer = (state = initial_state, action) => {
   switch (type) {
     case GET_POSTS_API:
       return {
-        ...state,
-        posts:state.posts.concat(payload), //using concat 
-        loading: false,
+        ...state, //stuff state 
+        posts:state.posts.concat(payload), //concate the data
+        loading: false, 
       };     
     default:
       return state;

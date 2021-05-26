@@ -16,8 +16,6 @@ export default function FetchPostDeatilsRoute() {
           <Route exact path="/" component={FetchPostDeatils} />
         </Switch>
 
-        {/* This will always be at the end */}
-        {/* Common footer */}
       </Fragment>
     </div>
   );

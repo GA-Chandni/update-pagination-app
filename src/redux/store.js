@@ -17,6 +17,7 @@ store = createStore (PostsDetailsReducer, composeEnhancers(applyMiddleware(thunk
 }
 else{
   store= createStore(PostsDetailsReducer, applyMiddleware(thunk));
+  
 }
 
 export default store;

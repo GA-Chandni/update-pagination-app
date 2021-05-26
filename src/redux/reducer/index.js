@@ -4,7 +4,7 @@ import { combineReducers } from "redux";
 //Custom modules
 import PostsDetailsReducer from "./PostsDetailsReducer";
 
-//using CombineReducer 
+//using CombineReducer ====
 export default combineReducers({
-  PostsDetailsReducer,
+  PostsDetailsReducer, 
 });
