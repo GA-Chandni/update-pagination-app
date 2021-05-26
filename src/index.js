@@ -14,7 +14,6 @@ import App from "./App";
 // Redux store
 import store from "./redux/store";
 
-// Css files
 import "./index.css";
 
 ReactDOM.render(
